@@ -11,7 +11,7 @@ export default function SimpleEcommerce() {
     { id: 3, name: 'Produto 3', price: 40, image: null },
   ]);
 
-  // Função para adicionar um produto ao carrinho
+  // Função para adicionar um produto ao carrinho 2s
   const addToCart = (product) => {
     setCart([...cart, { ...product, quantity: 1 }]);
   };
